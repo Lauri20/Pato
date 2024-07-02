@@ -1,0 +1,107 @@
+body {
+    background-color: skyblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.duck {
+    position: relative;
+}
+
+.body {
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+    border-radius: 50%;
+    position: relative;
+    top: 50px;
+}
+
+.head {
+    width: 60px;
+    height: 60px;
+    background-color: yellow;
+    border-radius: 50%;
+    position: absolute;
+    top: -30px;
+    left: 20px;
+}
+
+.eye {
+    width: 10px;
+    height: 10px;
+    background-color: black;
+    border-radius: 50%;
+    position: absolute;
+    top: 15px;
+}
+
+.eye:first-child {
+    left: 10px;
+}
+
+.eye:last-child {
+    right: 10px;
+}
+
+.beak {
+    width: 20px;
+    height: 10px;
+    background-color: orange;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 10px;
+    left: 20px;
+}
+
+.wing {
+    width: 40px;
+    height: 20px;
+    background-color: yellow;
+    border-radius: 20px 20px 0 0;
+    position: absolute;
+    top: 70px;
+    left: -10px;
+    transform: rotate(-45deg);
+}
+
+.thumb-up {
+    position: absolute;
+    top: 70px;
+    left: 50px;
+    transform: rotate(45deg);
+}
+
+.thumb {
+    width: 10px;
+    height: 20px;
+    background-color: yellow;
+    border-radius: 20px 20px 0 0;
+    position: absolute;
+    top: -10px;
+    left: 20px;
+}
+
+.finger {
+    width: 10px;
+    height: 20px;
+    background-color: yellow;
+    border-radius: 20px 20px 0 0;
+    position: absolute;
+    top: 0;
+}
+
+.finger:first-child {
+    left: 0;
+}
+
+.finger:nth-child(2) {
+    left: 10px;
+}
+
+.finger:last-child {
+    left: 20px;
+}
